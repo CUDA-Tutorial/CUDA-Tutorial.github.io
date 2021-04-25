@@ -1,0 +1,9 @@
+.box { height:1%; }
+
+#panel-left { width: 168px;}
+
+#nav ul li a {
+          display: inline-block; 
+          padding: 7px 25px 7px 7px;
+          height: 18px;
+        }
