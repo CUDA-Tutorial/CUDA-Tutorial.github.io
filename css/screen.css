@@ -2,7 +2,7 @@
 body, div, span, p, a, img, ul, ol, li, table, th, tr, td, form, fieldset, legend, dl, dt, dd, blockquote, applet, object { border:0; }
 body { 
   padding: 0 0; 
-  background: #192d40 url('../img/bg.jpg') repeat-x; 
+  background: url('../img/bg.jpg') repeat-x, url('../img/bg2.jpg') repeat; 
   font-family: "arial",sans-serif; 
   font-size: 13px;
   line-height:24px;
@@ -54,10 +54,10 @@ h5 { font-size:100%; }
       
       #logo .leaf {
         position: absolute; 
-        left: 0; top: 20px; 
+        left: 30; top: 20px; 
         z-index: 1; 
-        width: 120px; height: 80px;
-        background: url('../img/leaf.gif') 45px 5px no-repeat; 
+        width: 200px; height: 80px;
+        background: url('../img/threads.png') 35px 15px no-repeat; 
         cursor: pointer;
       }
       
